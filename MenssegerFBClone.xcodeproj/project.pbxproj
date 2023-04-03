@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		1BB3100929DB9B0900C35684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB3100829DB9B0900C35684 /* AppDelegate.swift */; };
 		1BB3100B29DB9B0900C35684 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB3100A29DB9B0900C35684 /* SceneDelegate.swift */; };
-		1BB3100D29DB9B0900C35684 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB3100C29DB9B0900C35684 /* ViewController.swift */; };
+		1BB3100D29DB9B0900C35684 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB3100C29DB9B0900C35684 /* FriendsViewController.swift */; };
 		1BB3101329DB9B0900C35684 /* MenssegerFBClone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1BB3101129DB9B0900C35684 /* MenssegerFBClone.xcdatamodeld */; };
 		1BB3101529DB9B0D00C35684 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BB3101429DB9B0D00C35684 /* Assets.xcassets */; };
 		1BB3101829DB9B0D00C35684 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BB3101629DB9B0D00C35684 /* LaunchScreen.storyboard */; };
+		1BB3102929DB9D5800C35684 /* BaseViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB3102729DB9D5800C35684 /* BaseViewCell.swift */; };
+		1BB3102A29DB9D5800C35684 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB3102829DB9D5800C35684 /* BaseView.swift */; };
+		1BB3102C29DB9D8700C35684 /* FriendScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB3102B29DB9D8700C35684 /* FriendScreenView.swift */; };
+		1BB3102E29DB9F7800C35684 /* FriendScreenViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB3102D29DB9F7800C35684 /* FriendScreenViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1BB3100529DB9B0900C35684 /* MenssegerFBClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenssegerFBClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BB3100829DB9B0900C35684 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BB3100A29DB9B0900C35684 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1BB3100C29DB9B0900C35684 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1BB3100C29DB9B0900C35684 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 		1BB3101229DB9B0900C35684 /* MenssegerFBClone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MenssegerFBClone.xcdatamodel; sourceTree = "<group>"; };
 		1BB3101429DB9B0D00C35684 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BB3101729DB9B0D00C35684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BB3101929DB9B0D00C35684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BB3102729DB9D5800C35684 /* BaseViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewCell.swift; sourceTree = "<group>"; };
+		1BB3102829DB9D5800C35684 /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		1BB3102B29DB9D8700C35684 /* FriendScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendScreenView.swift; sourceTree = "<group>"; };
+		1BB3102D29DB9F7800C35684 /* FriendScreenViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendScreenViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,75 @@
 		1BB3100729DB9B0900C35684 /* MenssegerFBClone */ = {
 			isa = PBXGroup;
 			children = (
-				1BB3100829DB9B0900C35684 /* AppDelegate.swift */,
-				1BB3100A29DB9B0900C35684 /* SceneDelegate.swift */,
-				1BB3100C29DB9B0900C35684 /* ViewController.swift */,
-				1BB3101429DB9B0D00C35684 /* Assets.xcassets */,
-				1BB3101629DB9B0D00C35684 /* LaunchScreen.storyboard */,
+				1BB3101F29DB9C7700C35684 /* Delegate */,
+				1BB3102629DB9D5800C35684 /* Bases */,
+				1BB3102129DB9C9900C35684 /* Friends */,
+				1BB3102029DB9C8800C35684 /* Resources */,
 				1BB3101929DB9B0D00C35684 /* Info.plist */,
 				1BB3101129DB9B0900C35684 /* MenssegerFBClone.xcdatamodeld */,
 			);
 			path = MenssegerFBClone;
+			sourceTree = "<group>";
+		};
+		1BB3101F29DB9C7700C35684 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				1BB3100A29DB9B0900C35684 /* SceneDelegate.swift */,
+				1BB3100829DB9B0900C35684 /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		1BB3102029DB9C8800C35684 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1BB3101629DB9B0D00C35684 /* LaunchScreen.storyboard */,
+				1BB3101429DB9B0D00C35684 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1BB3102129DB9C9900C35684 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				1BB3102329DB9D3000C35684 /* View */,
+				1BB3102229DB9D2900C35684 /* Controller */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		1BB3102229DB9D2900C35684 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1BB3100C29DB9B0900C35684 /* FriendsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1BB3102329DB9D3000C35684 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1BB3102429DB9D3600C35684 /* Cell */,
+				1BB3102B29DB9D8700C35684 /* FriendScreenView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BB3102429DB9D3600C35684 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1BB3102D29DB9F7800C35684 /* FriendScreenViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		1BB3102629DB9D5800C35684 /* Bases */ = {
+			isa = PBXGroup;
+			children = (
+				1BB3102729DB9D5800C35684 /* BaseViewCell.swift */,
+				1BB3102829DB9D5800C35684 /* BaseView.swift */,
+			);
+			path = Bases;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +205,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BB3100D29DB9B0900C35684 /* ViewController.swift in Sources */,
+				1BB3102E29DB9F7800C35684 /* FriendScreenViewCell.swift in Sources */,
+				1BB3100D29DB9B0900C35684 /* FriendsViewController.swift in Sources */,
+				1BB3102929DB9D5800C35684 /* BaseViewCell.swift in Sources */,
 				1BB3100929DB9B0900C35684 /* AppDelegate.swift in Sources */,
+				1BB3102C29DB9D8700C35684 /* FriendScreenView.swift in Sources */,
+				1BB3102A29DB9D5800C35684 /* BaseView.swift in Sources */,
 				1BB3100B29DB9B0900C35684 /* SceneDelegate.swift in Sources */,
 				1BB3101329DB9B0900C35684 /* MenssegerFBClone.xcdatamodeld in Sources */,
 			);
