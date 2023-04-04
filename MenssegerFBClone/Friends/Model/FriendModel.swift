@@ -7,16 +7,16 @@
 
 import Foundation
 
-class Message: NSObject {
-    
-    var text: String?
-    var date: NSDate?
-    var friend: Friend?
-}
-
-class Friend: NSObject {
-    
-    var name: String?
-    var profileImage: String?
-    
-}
+//class Message: NSObject {
+//    
+//    var text: String?
+//    var date: NSDate?
+//    var friend: Friend?
+//}
+//
+//class Friend: NSObject {
+//    
+//    var name: String?
+//    var profileImage: String?
+//    
+//}

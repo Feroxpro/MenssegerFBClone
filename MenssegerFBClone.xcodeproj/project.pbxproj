@@ -18,6 +18,7 @@
 		1BB3102C29DB9D8700C35684 /* FriendScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB3102B29DB9D8700C35684 /* FriendScreenView.swift */; };
 		1BB3102E29DB9F7800C35684 /* FriendScreenViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB3102D29DB9F7800C35684 /* FriendScreenViewCell.swift */; };
 		1BB3103329DBCBF500C35684 /* FriendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB3103229DBCBF500C35684 /* FriendModel.swift */; };
+		6BADFBC929DCE112002484A6 /* FriendsControllerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BADFBC829DCE112002484A6 /* FriendsControllerHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,11 @@
 		1BB3102B29DB9D8700C35684 /* FriendScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendScreenView.swift; sourceTree = "<group>"; };
 		1BB3102D29DB9F7800C35684 /* FriendScreenViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendScreenViewCell.swift; sourceTree = "<group>"; };
 		1BB3103229DBCBF500C35684 /* FriendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendModel.swift; sourceTree = "<group>"; };
+		6BADFBC829DCE112002484A6 /* FriendsControllerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsControllerHelper.swift; sourceTree = "<group>"; };
+		6BADFBDA29DCE464002484A6 /* Message+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Message+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6BADFBDB29DCE464002484A6 /* Message+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Message+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6BADFBDC29DCE464002484A6 /* Friend+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Friend+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6BADFBDD29DCE464002484A6 /* Friend+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Friend+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,10 @@
 				1BB3102029DB9C8800C35684 /* Resources */,
 				1BB3101929DB9B0D00C35684 /* Info.plist */,
 				1BB3101129DB9B0900C35684 /* MenssegerFBClone.xcdatamodeld */,
+				6BADFBDA29DCE464002484A6 /* Message+CoreDataClass.swift */,
+				6BADFBDB29DCE464002484A6 /* Message+CoreDataProperties.swift */,
+				6BADFBDC29DCE464002484A6 /* Friend+CoreDataClass.swift */,
+				6BADFBDD29DCE464002484A6 /* Friend+CoreDataProperties.swift */,
 			);
 			path = MenssegerFBClone;
 			sourceTree = "<group>";
@@ -88,6 +98,7 @@
 		1BB3102029DB9C8800C35684 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6BADFBC729DCE0C2002484A6 /* UIViewController+Extensions */,
 				1BB3101629DB9B0D00C35684 /* LaunchScreen.storyboard */,
 				1BB3101429DB9B0D00C35684 /* Assets.xcassets */,
 			);
@@ -144,6 +155,14 @@
 				1BB3103229DBCBF500C35684 /* FriendModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		6BADFBC729DCE0C2002484A6 /* UIViewController+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6BADFBC829DCE112002484A6 /* FriendsControllerHelper.swift */,
+			);
+			path = "UIViewController+Extensions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +244,7 @@
 				1BB3102A29DB9D5800C35684 /* BaseView.swift in Sources */,
 				1BB3100B29DB9B0900C35684 /* SceneDelegate.swift in Sources */,
 				1BB3101329DB9B0900C35684 /* MenssegerFBClone.xcdatamodeld in Sources */,
+				6BADFBC929DCE112002484A6 /* FriendsControllerHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

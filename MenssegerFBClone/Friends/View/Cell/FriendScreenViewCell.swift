@@ -9,6 +9,22 @@ import UIKit
 
 class FriendScreenViewCell: BaseViewCell {
     
+    var message: Message? {
+        didSet {
+            friendName.text = message?.friend?.name
+            if let profileImageName = message?.friend?.profileImage {
+                profileImage.image = UIImage(named: profileImageName)
+            }
+            
+            friendMessage.text = message?.text
+            if let date = message?.date {
+                let dateFomatter = DateFormatter()
+                dateFomatter.dateFormat = "h:mm a"
+                timeLabel.text = dateFomatter.string(from: date as Date)
+            }
+        }
+    }
+    
     lazy var cellView: UIView = {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
@@ -26,7 +42,7 @@ class FriendScreenViewCell: BaseViewCell {
     
     lazy var dividerLine: UIView = {
         let view = UIView()
-        view.backgroundColor = .gray
+        view.backgroundColor = .white
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
