@@ -16,8 +16,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             guard let windowScene = (scene as? UIWindowScene) else { return }
             window = UIWindow(windowScene: windowScene)
             window?.makeKeyAndVisible()
-            window?.backgroundColor = UIColor.black
-            window?.rootViewController =  UINavigationController(rootViewController: SignInViewController())
+            window?.rootViewController =  UINavigationController(rootViewController: FriendsViewController())
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

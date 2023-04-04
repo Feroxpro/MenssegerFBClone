@@ -17,6 +17,7 @@
 		1BB3102A29DB9D5800C35684 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB3102829DB9D5800C35684 /* BaseView.swift */; };
 		1BB3102C29DB9D8700C35684 /* FriendScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB3102B29DB9D8700C35684 /* FriendScreenView.swift */; };
 		1BB3102E29DB9F7800C35684 /* FriendScreenViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB3102D29DB9F7800C35684 /* FriendScreenViewCell.swift */; };
+		1BB3103329DBCBF500C35684 /* FriendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB3103229DBCBF500C35684 /* FriendModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		1BB3102829DB9D5800C35684 /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		1BB3102B29DB9D8700C35684 /* FriendScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendScreenView.swift; sourceTree = "<group>"; };
 		1BB3102D29DB9F7800C35684 /* FriendScreenViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendScreenViewCell.swift; sourceTree = "<group>"; };
+		1BB3103229DBCBF500C35684 /* FriendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		1BB3102129DB9C9900C35684 /* Friends */ = {
 			isa = PBXGroup;
 			children = (
+				1BB3103129DBCBDE00C35684 /* Model */,
 				1BB3102329DB9D3000C35684 /* View */,
 				1BB3102229DB9D2900C35684 /* Controller */,
 			);
@@ -133,6 +136,14 @@
 				1BB3102829DB9D5800C35684 /* BaseView.swift */,
 			);
 			path = Bases;
+			sourceTree = "<group>";
+		};
+		1BB3103129DBCBDE00C35684 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1BB3103229DBCBF500C35684 /* FriendModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +220,7 @@
 				1BB3100D29DB9B0900C35684 /* FriendsViewController.swift in Sources */,
 				1BB3102929DB9D5800C35684 /* BaseViewCell.swift in Sources */,
 				1BB3100929DB9B0900C35684 /* AppDelegate.swift in Sources */,
+				1BB3103329DBCBF500C35684 /* FriendModel.swift in Sources */,
 				1BB3102C29DB9D8700C35684 /* FriendScreenView.swift in Sources */,
 				1BB3102A29DB9D5800C35684 /* BaseView.swift in Sources */,
 				1BB3100B29DB9B0900C35684 /* SceneDelegate.swift in Sources */,
